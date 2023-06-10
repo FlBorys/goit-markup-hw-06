@@ -275,29 +275,26 @@
             </li>
           </ul>
         </div>
+        <!-- Subscribe -->
         <div class="subscribe-footer">
-          <div class="subscribe-form-block">
-            <form class="subscribe-form">
-              <div class="subscribe-modal">
-                <label class="subscribe-text" for="sub_email">Subscribe</label>
-                <input
-                  class="subscribe-input"
-                  name="sub_email"
-                  type="email"
-                  placeholder="E-mail"
-                  required
-                />
-              </div>
-              <div class="subscribe-button-block">
-                <button class="subscribe-button button" type="submit">
-                  Subscribe
-                  <svg class="svg-button-footer" width="24" height="20">
-                    <use href="./images/icons.svg#icon-icon-send"></use>
-                  </svg>
-                </button>
-              </div>
-            </form>
-          </div>
+          <p class="subscribe-text">Subscribe</p>
+          <form class="subscribe-form">
+            <label for="sub-email" class="subscribe-form-label">
+              <input
+                id="sub-email"
+                class="subscribe-input"
+                name="sub-email"
+                type="email"
+                placeholder="E-mail"
+                required
+            /></label>
+            <button class="subscribe-button button" type="submit">
+              Subscribe
+              <svg class="svg-button-footer" width="24" height="24">
+                <use href="./images/icons.svg#icon-icon-send"></use>
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
     </footer>
