@@ -631,6 +631,9 @@ ul {
 
   cursor: pointer;
 
+  min-width: 165px;
+  min-height: 40px;
+
   background: var(--accent-color);
   border-radius: 4px;
   margin-left: 24px;
