@@ -632,7 +632,6 @@ ul {
 
   background: var(--accent-color);
   border-radius: 4px;
-  margin-left: 24px;
   border: none;
 
   font-family: "Roboto", sans-serif;
@@ -1023,7 +1022,7 @@ ul {
 .modal-form-check:checked + label > .checkbox-icon {
   background-color: var(--select-color);
   border: none;
-  fill: var(--additional-text-color);
+  fill: var(--portfolio-button);
 }
 
 .modal-checkbox-form {
