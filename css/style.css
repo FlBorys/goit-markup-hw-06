@@ -922,7 +922,7 @@ ul {
   color: #8e8f99;
 }
 
-.modal-form-name {
+/* .modal-form-name {
   display: block;
   margin-bottom: 4px;
   font-family: "Roboto", sans-serif;
@@ -932,7 +932,7 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-}
+} */
 
 .modal-form-input {
   outline: transparent;
